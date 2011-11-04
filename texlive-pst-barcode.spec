@@ -55,6 +55,7 @@ multi-pass mechansism such as pst-pdf.
 %doc %{_texmfdistdir}/doc/generic/pst-barcode/pst-barcode-doc.tex
 #- source
 %doc %{_texmfdistdir}/source/generic/pst-barcode/Makefile
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -65,3 +66,5 @@ multi-pass mechansism such as pst-pdf.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
