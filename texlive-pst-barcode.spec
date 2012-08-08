@@ -1,12 +1,12 @@
-# revision 21716
+# revision 27004
 # category Package
 # catalog-ctan /graphics/pstricks/contrib/pst-barcode
-# catalog-date 2011-03-12 22:14:05 +0100
+# catalog-date 2012-06-28 12:34:54 +0200
 # catalog-license lppl
-# catalog-version 0.08
+# catalog-version 0.09
 Name:		texlive-pst-barcode
-Version:	0.08
-Release:	2
+Version:	0.09
+Release:	1
 Summary:	Print barcodes using PostScript
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-barcode
@@ -22,7 +22,7 @@ Requires(post):	texlive-kpathsea
 %description
 The pst-barcode package allows printing of barcodes, in a huge
 variety of formats (see documentation for details). As a
-pstricks package, pst-barcode requires pstricks. The package
+pstricks package, the package requires pstricks. The package
 uses PostScript for calculating the bars. For PDF output use a
 multi-pass mechansism such as pst-pdf.
 
