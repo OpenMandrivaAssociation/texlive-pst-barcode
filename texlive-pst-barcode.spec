@@ -56,3 +56,21 @@ multi-pass mechansism such as pst-pdf.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Aug 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.09-1
++ Revision: 812790
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.08-2
++ Revision: 755221
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.08-1
++ Revision: 719334
+- texlive-pst-barcode
+- texlive-pst-barcode
+- texlive-pst-barcode
+- texlive-pst-barcode
+
