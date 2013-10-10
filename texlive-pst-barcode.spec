@@ -1,11 +1,11 @@
-# revision 27004
+# revision 31857
 # category Package
 # catalog-ctan /graphics/pstricks/contrib/pst-barcode
-# catalog-date 2012-06-28 12:34:54 +0200
+# catalog-date 2013-10-07 19:19:29 +0200
 # catalog-license lppl
-# catalog-version 0.09
+# catalog-version 0.11
 Name:		texlive-pst-barcode
-Version:	0.09
+Version:	0.11
 Release:	1
 Summary:	Print barcodes using PostScript
 Group:		Publishing
@@ -56,21 +56,3 @@ multi-pass mechansism such as pst-pdf.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Aug 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.09-1
-+ Revision: 812790
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.08-2
-+ Revision: 755221
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.08-1
-+ Revision: 719334
-- texlive-pst-barcode
-- texlive-pst-barcode
-- texlive-pst-barcode
-- texlive-pst-barcode
-
