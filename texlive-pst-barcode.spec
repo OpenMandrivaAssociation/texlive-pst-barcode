@@ -1,11 +1,11 @@
-# revision 31857
+# revision 32004
 # category Package
 # catalog-ctan /graphics/pstricks/contrib/pst-barcode
-# catalog-date 2013-10-07 19:19:29 +0200
+# catalog-date 2013-10-26 16:10:33 +0200
 # catalog-license lppl
-# catalog-version 0.11
+# catalog-version 0.12
 Name:		texlive-pst-barcode
-Version:	0.11
+Version:	0.12
 Release:	1
 Summary:	Print barcodes using PostScript
 Group:		Publishing
@@ -13,7 +13,6 @@ URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-barcode
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-barcode.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-barcode.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-barcode.source.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -44,15 +43,13 @@ multi-pass mechansism such as pst-pdf.
 %doc %{_texmfdistdir}/doc/generic/pst-barcode/pst-barcode-doc.bib
 %doc %{_texmfdistdir}/doc/generic/pst-barcode/pst-barcode-doc.pdf
 %doc %{_texmfdistdir}/doc/generic/pst-barcode/pst-barcode-doc.tex
-#- source
-%doc %{_texmfdistdir}/source/generic/pst-barcode/Makefile
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a0 -a1
 
 %build
 
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
-cp -fpar dvips tex doc source %{buildroot}%{_texmfdistdir}
+cp -fpar dvips tex doc %{buildroot}%{_texmfdistdir}
