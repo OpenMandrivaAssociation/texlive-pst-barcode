@@ -6,7 +6,7 @@
 # catalog-version 0.12
 Name:		texlive-pst-barcode
 Version:	0.12
-Release:	2
+Release:	3
 Summary:	Print barcodes using PostScript
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-barcode
