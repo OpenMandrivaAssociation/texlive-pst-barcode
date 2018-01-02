@@ -1,12 +1,6 @@
-# revision 32004
-# category Package
-# catalog-ctan /graphics/pstricks/contrib/pst-barcode
-# catalog-date 2013-10-26 16:10:33 +0200
-# catalog-license lppl
-# catalog-version 0.12
 Name:		texlive-pst-barcode
-Version:	0.12
-Release:	9
+Version:	0.18
+Release:	1
 Summary:	Print barcodes using PostScript
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-barcode
@@ -35,14 +29,10 @@ multi-pass mechansism such as pst-pdf.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/dvips/pst-barcode/pst-barcode.pro
-%{_texmfdistdir}/tex/generic/pst-barcode/pst-barcode.tex
-%{_texmfdistdir}/tex/latex/pst-barcode/pst-barcode.sty
-%doc %{_texmfdistdir}/doc/generic/pst-barcode/Changes
-%doc %{_texmfdistdir}/doc/generic/pst-barcode/README
-%doc %{_texmfdistdir}/doc/generic/pst-barcode/pst-barcode-doc.bib
-%doc %{_texmfdistdir}/doc/generic/pst-barcode/pst-barcode-doc.pdf
-%doc %{_texmfdistdir}/doc/generic/pst-barcode/pst-barcode-doc.tex
+%{_texmfdistdir}/dvips/pst-barcode
+%{_texmfdistdir}/tex/generic/pst-barcode
+%{_texmfdistdir}/tex/latex/pst-barcode
+%doc %{_texmfdistdir}/doc/generic/pst-barcode
 
 #-----------------------------------------------------------------------
 %prep
