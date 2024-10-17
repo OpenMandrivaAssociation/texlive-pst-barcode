@@ -3,7 +3,7 @@ Version:	64182
 Release:	2
 Summary:	Print barcodes using PostScript
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-barcode
+URL:		https://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-barcode
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-barcode.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-barcode.doc.r%{version}.tar.xz
